@@ -1,14 +1,9 @@
-import Link from "next/link";
-
-export default function HomePage() {
+function HomePage() {
   return (
     <div>
-      <h1> This Home page</h1>
-      <ul>
-        <li>
-          <Link href="/portfolio">Porfolio</Link>
-        </li>
-      </ul>
+      <h1>The Home Page</h1>
     </div>
   );
 }
+
+export default HomePage;
